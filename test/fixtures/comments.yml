@@ -2,10 +2,10 @@
 
 one:
   message: MyText
-  user: 
-  article: 
+  user: one
+  article: one
 
 two:
   message: MyText
-  user: 
-  article: 
+  user: two
+  article: two

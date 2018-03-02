@@ -23,12 +23,7 @@
 
   <div class="field">
     <%= form.label :user_id %>
-    <%= form.text_field :user_id, id: :article_user_id %>
-  </div>
-
-  <div class="field">
-    <%= form.label :comments %>
-    <%= form.text_field :comments, id: :article_comments %>
+    <%= form.collection_select :user_id, User.all, :id, :email %>
   </div>
 
   <div class="actions">

@@ -3,11 +3,7 @@
 one:
   name: MyString
   email: MyString
-  articles: 
-  comments: 
 
 two:
   name: MyString
   email: MyString
-  articles: 
-  comments: 
