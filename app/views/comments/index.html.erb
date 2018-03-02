@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <%= link_to 'All Articles', articles_path %> |
+  <%= link_to 'All Comments', comments_path %> |
+  <%= link_to 'All Users', users_path %>
+</p>
+
 <h1>Comments</h1>
 
 <table>
@@ -25,7 +31,7 @@
   <% end %>
   </tbody>
 </table>
-
+<%= will_paginate @posts %>
 <br>
 
 <%= link_to 'New Comment', new_comment_path %>
